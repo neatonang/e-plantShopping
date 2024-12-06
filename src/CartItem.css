@@ -241,3 +241,33 @@
     margin-top: 40px;
   }
   
+
+
+  /* Styles for the Cart Icon */
+.cart-icon {
+  position: relative; /* Position for badge placement */
+  font-size: 24px; /* Size of the cart icon */
+  cursor: pointer; /* Pointer cursor for interaction */
+  color: #333; /* Cart icon color */
+  display: flex; /* Flex to center align */
+  align-items: center;
+}
+
+.cart-icon i {
+  font-size: 28px; /* Icon size */
+}
+
+.cart-item-count {
+  position: absolute; /* Place badge over the icon */
+  top: -10px; /* Adjust the position */
+  right: -10px; /* Adjust the position */
+  background-color: red; /* Badge background */
+  color: white; /* Badge text color */
+  border-radius: 50%; /* Circular badge */
+  font-size: 12px; /* Badge text size */
+  font-weight: bold; /* Bold text */
+  padding: 4px 8px; /* Padding inside badge */
+  display: flex; /* Center align text in badge */
+  justify-content: center;
+  align-items: center;
+}
